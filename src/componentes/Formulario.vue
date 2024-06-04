@@ -79,34 +79,6 @@
 
 <script>
 
-/*      consignas:[
-        {
-          descripcion:"Cantidad de caracteres del texto (trimmed)",
-          consigna:this.cantCaracteres,
-        },
-        {
-          descripcion:"Texto codificado",
-          consigna: this.codificado,
-        },
-        {
-          descripcion:"Texto pasado a mayuscula",
-          consigna: this.aMayus,
-        },
-        {
-          descripcion:"Texto pasado a minuscula",
-          consigna: this.aMinus,
-        },
-        {
-          descripcion:"Texto intercalado minuscula Primero",
-          consigna: this.interPar,
-        },
-        {
-          descripcion:"Texto intercalado mayuscula Primero",
-          consigna: this.interImpar,
-        },*/
-
-// funciones puras
-
 function tablaFlip(letra){
 
   let isLower = (letra == letra.toLowerCase());
